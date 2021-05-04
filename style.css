@@ -1,0 +1,22 @@
+h1{
+    
+    font-family: "Swamp Witch";
+    text-align: center;
+    
+}
+
+p{
+    position: inherit;
+    text-align: center;
+    vertical-align: super;
+}
+
+.unusual_div{
+    height: 200px;
+    background-color: blue;
+}
+
+i{
+    color: red;
+    vertical-align: bottom;
+}
