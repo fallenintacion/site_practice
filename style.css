@@ -1,22 +1,55 @@
-h1{
-    
-    font-family: "Swamp Witch";
-    text-align: center;
-    
+p {
+    border: solid springgreen;
 }
 
-p{
+h1 {
+    font-family: "Swamp Witch";
+    text-align: center;
+}
+
+p {
     position: inherit;
     text-align: center;
     vertical-align: super;
 }
 
-.unusual_div{
+.unusual_div {
     height: 200px;
     background-color: blue;
 }
 
-i{
+i {
     color: red;
     vertical-align: bottom;
+}
+
+.example {
+    display: table-cell;
+    border: dashed orange;
+}
+
+.example > div {
+    display: inline-block;
+    border: dashed blue;
+    margin: 10px;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.text-bottom {
+    vertical-align: text-top;
 }
